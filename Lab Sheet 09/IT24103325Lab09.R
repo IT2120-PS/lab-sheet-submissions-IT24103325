@@ -1,0 +1,5 @@
+setwd("C:\\Users\\pansi\\Desktop\\IT24103325PsLab09")
+baking_time <- rnorm(n = 25, mean = 45, sd = 2)
+print(baking_time)
+t_test_result <- t.test(baking_time, mu = 46, alternative = "less")
+print(t_test_result)
